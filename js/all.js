@@ -18,8 +18,16 @@ $(function() {
         }
         $(this).siblings('.subMenu').slideToggle();
     })
+    //摺疊 QA
+    $('.indexQA h4').on('click', function(e){
+        $(this).siblings('p').slideToggle();
+    })
     //goTop 效果
     $('.goTop-btn').on('click', function(e){
         $('html, body').animate({scrollTop: 0}, 500);
+    })
+    // 
+    $('.goTop-btn').hover(function(){
+        $(this).addClass('animate__animated animate__heartBeat');
     })
 });

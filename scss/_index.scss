@@ -219,6 +219,37 @@ a{
         background-color: #f6f6f6;
     }
 }
+// indexQA
+.indexQA{
+    margin-bottom: 80px;
+    h3{
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    ul{
+        width: 90%;
+        margin: 0 auto;
+    }
+    i{
+        margin-right: 20px;
+    }
+    h4, p{
+        padding: 20px;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    h4{
+        background-color: #ebebeb;
+        cursor: pointer;
+    }
+    p{
+        line-height: 1.8rem;
+        color: #7a8292;
+        display: none;
+    }
+}
 // 聯絡我們
 .contactUs{
     background: url('../images/bg.png');
