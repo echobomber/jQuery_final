@@ -16,180 +16,218 @@
     <title>jQuery 最終作業 - By 至榮</title>
 </head>
 <body>
-    <header class="wrap">
-        <div class="social-link clearfix">
-            <ul>
-                <li>
-                    <a href="#" class="fb-social-link clearfix">
-                        <img src="images/facebookIcon.png" alt="">
-                        <span>粉絲團</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="tw-social-link clearfix">
-                        <img src="images/twitterIcon.png" alt="">
-                        <span>追隨我們</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="topMenu">
-            <h1 class="logo"><a href="#">六角學院 Hex school</a></h1>
-            <ul class="topMenu-link">
-                <li><a href="#">首頁</a></li>
-                <li>
-                    <a href="#">
-                        <span>課程介紹</span>
-                        <i class="fas fa-chevron-circle-down"></i>
-                    </a>
-                    <ul class="subMenu">
-                        <li><a href="#">網頁切版</a></li>
-                        <li><a href="#">響應式設計</a></li>
-                        <li><a href="#">jQuery 實戰</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>問與答</span>
-                        <i class="fas fa-chevron-circle-down"></i>
-                    </a>
-                    <ul class="subMenu">
-                        <li><a href="#">常見問題</a></li>
-                        <li><a href="#">轉職諮詢</a></li>
-                        <li><a href="#">退費處理</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>聯絡我們</span>
-                        <i class="fas fa-chevron-circle-down"></i>
-                    </a>
-                    <ul class="subMenu">
-                        <li><a href="#">實習計畫</a></li>
-                        <li><a href="#">辦公地點</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- Slider main container -->
-        <div class="banner swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <img src="images/Banner.png" alt="">
-                    <div class="banner-text">
-                        <p>六角學院<br>讓你奠定良好的前端基礎</p>
+    <div class="wrap">
+        <header>
+            <div class="social-link clearfix">
+                <ul>
+                    <li>
+                        <a href="#" class="fb-social-link clearfix">
+                            <img src="images/facebookIcon.png" alt="">
+                            <span>粉絲團</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="tw-social-link clearfix">
+                            <img src="images/twitterIcon.png" alt="">
+                            <span>追隨我們</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topMenu">
+                <h1 class="logo"><a href="#">六角學院 Hex school</a></h1>
+                <ul class="topMenu-link">
+                    <li><a href="#">首頁</a></li>
+                    <li>
+                        <a href="#">
+                            <span>課程介紹</span>
+                            <i class="fas fa-chevron-circle-down"></i>
+                        </a>
+                        <ul class="subMenu">
+                            <li><a href="#">網頁切版</a></li>
+                            <li><a href="#">響應式設計</a></li>
+                            <li><a href="#">jQuery 實戰</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>問與答</span>
+                            <i class="fas fa-chevron-circle-down"></i>
+                        </a>
+                        <ul class="subMenu">
+                            <li><a href="#">常見問題</a></li>
+                            <li><a href="#">轉職諮詢</a></li>
+                            <li><a href="#">退費處理</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>聯絡我們</span>
+                            <i class="fas fa-chevron-circle-down"></i>
+                        </a>
+                        <ul class="subMenu">
+                            <li><a href="#">實習計畫</a></li>
+                            <li><a href="#">辦公地點</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Slider main container -->
+            <div class="banner swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="images/Banner.png" alt="">
+                        <div class="banner-text">
+                            <p>六角學院<br>讓你奠定良好的前端基礎</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bg_course.png" alt="">
+                        <div class="banner-text">
+                            <p>六角學院<br>讓你奠定良好的前端基礎</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bg_index.png" alt="">
+                        <div class="banner-text">
+                            <p>六角學院<br>讓你奠定良好的前端基礎</p>
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <img src="images/bg_course.png" alt="">
-                    <div class="banner-text">
-                        <p>六角學院<br>擁有最厲害的師資</p>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </header>
+        <main>
+            <div class="goTop-btn">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+            <section>
+                <ul class="course">
+                    <li class="course-item">
+                        <a class="example-image-link" href="images/html.png" data-lightbox="example-set" data-title="HTML 基礎教學"><img class="example-image" src="images/html.png" alt=""/></a>
+                        <a href="#">
+                            <h3>
+                                HTML 5 基礎教學
+                            </h3>
+                            <p>
+                                主流前端網站設計的基礎，透過實際的範例，瞭解正確的網站開發流程。
+                            </p>
+                        </a>
+                    </li>
+                    <li class="course-item">
+                        <a class="example-image-link" href="images/rwd.png" data-lightbox="example-set" data-title="RWD"><img class="example-image" src="images/rwd.png" alt=""/></a>
+                        <a href="#">
+                            <h3>
+                                響應式網站設計
+                            </h3>
+                            <p>
+                                六角學院提供業界響應式開發方法，讓學生瞭解完善的行動版開發觀念。
+                            </p>
+                        </a>
+                    </li>
+                    <li class="course-item">
+                        <a class="example-image-link" href="images/jQuery.png" data-lightbox="example-set" data-title="jQuery"><img class="example-image" src="images/jQuery.png" alt=""/></a>
+                        <a href="#">
+                            <h3>
+                                jQuery實戰教學
+                            </h3>
+                            <p>
+                                分為四大主題：變數的使用、操作DOM、基本數學運算和套件運用。
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="compare-table wrap">
+                <h3>線上課程與實體課程的差異</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>六角學院 線上課程</th>
+                            <th>一般線上課程</th>
+                            <th>一般實體課程</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>費用</td>
+                            <td class="primary-color">較低</td>
+                            <td class="primary-color">較低</td>
+                            <td>較高</td>
+                        </tr>
+                        <tr>
+                            <td>學習效果</td>
+                            <td>一般</td>
+                            <td>較低</td>
+                            <td class="primary-color">很好</td>
+                        </tr>
+                        <tr>
+                            <td>Code review</td>
+                            <td class="primary-color">有</td>
+                            <td>無</td>
+                            <td>不一定</td>
+                        </tr>
+                        <tr>
+                            <td>課程更新速度</td>
+                            <td class="primary-color">普通</td>
+                            <td class="primary-color">普通</td>
+                            <td>較慢</td>
+                        </tr>
+                        <tr>
+                            <td>多次複習</td>
+                            <td class="primary-color">可</td>
+                            <td class="primary-color">可</td>
+                            <td>不可</td>
+                        </tr>
+                        <tr>
+                            <td>字幕</td>
+                            <td class="primary-color">有</td>
+                            <td>不一定</td>
+                            <td>板書</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="contactUs">
+                <h3>對我們課程有興趣嗎？<br>
+                    歡迎留下您的資料
+                </h3>
+                <form action="#">
+                    <textarea id="comment" name="comment" rows="10" cols="30">
+                    </textarea>
+                    <div class="contactUs-customerInfo">  
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" placeholder="六角講師">
+                        <label for="name">電話</label>
+                        <input type="phone" id="phone" placeholder="0973587789">
+                        <label for="email">電話</label>
+                        <input type="email" id="email" placeholder="jordan@gmail.com">
+                        <input type="submit" id="submit" value="送出">
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/bg_index.png" alt="">
-                    <div class="banner-text">
-                        <p>以及<br>最帥氣的實習生</p>
-                    </div>
-                </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <h2><a href="#"class="footer-logo">六角學院</a></h2>
+                <ul class="footer-contact">
+                    <li>
+                        <p>聯絡我們:</p>
+                        <a href="mailto:hexschool@gmail.com">hexschool@gmail.com</a>
+                    </li>
+                    <li>
+                        <p>電話:</p>
+                        <a href="tel:0973587789">0973587789</a>
+                    </li>
+                </ul>
             </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </header>
-    <main class="wrap">
-        <section class="course">
-            <div class="course-item"> 
-                <a class="example-image-link" href="images/html.png" data-lightbox="example-set" data-title="HTML 基礎教學"><img class="example-image" src="images/html.png" alt=""/></a>
-                <div>
-                    <h3>
-                        HTML 5 基礎教學
-                    </h3>
-                    <p>
-                        主流前端網站設計的基礎，透過實際的範例，瞭解正確的網站開發流程。
-                    </p>
-                </div>
-            </div>
-            <div class="course-item"> 
-                <a class="example-image-link" href="images/rwd.png" data-lightbox="example-set" data-title="RWD"><img class="example-image" src="images/rwd.png" alt=""/></a>
-                <div>
-                    <h3>
-                        響應式網站設計
-                    </h3>
-                    <p>
-                        六角學院提供業界響應式開發方法，讓學生瞭解完善的行動版開發觀念。
-                    </p>
-                </div>
-            </div>
-            <div class="course-item"> 
-                <a class="example-image-link" href="images/jQuery.png" data-lightbox="example-set" data-title="jQuery"><img class="example-image" src="images/jQuery.png" alt=""/></a>
-                <div>
-                    <h3>
-                        jQuery實戰教學
-                    </h3>
-                    <p>
-                        分為四大主題：變數的使用、操作DOM、基本數學運算和套件運用。
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="compare-table wrap">
-            <h3>線上課程與實體課程的差異</h3>
-            <table>
-                <tr>
-                    <th>項目</th>
-                    <th>六角學院 線上課程</th>
-                    <th>一般線上課程</th>
-                    <th>一般實體課程</th>
-                </tr>
-                <tr>
-                    <td>費用</td>
-                    <td class="primary-color">較低</td>
-                    <td class="primary-color">較低</td>
-                    <td>較高</td>
-                </tr>
-                <tr>
-                    <td>學習效果</td>
-                    <td>一般</td>
-                    <td>較低</td>
-                    <td class="primary-color">很好</td>
-                </tr>
-                <tr>
-                    <td>Code review</td>
-                    <td class="primary-color">有</td>
-                    <td>無</td>
-                    <td>不一定</td>
-                </tr>
-                <tr>
-                    <td>課程更新速度</td>
-                    <td class="primary-color">普通</td>
-                    <td class="primary-color">普通</td>
-                    <td>較慢</td>
-                </tr>
-                <tr>
-                    <td>多次複習</td>
-                    <td class="primary-color">可</td>
-                    <td class="primary-color">可</td>
-                    <td>不可</td>
-                </tr>
-                <tr>
-                    <td>字幕</td>
-                    <td class="primary-color">有</td>
-                    <td>不一定</td>
-                    <td>板書</td>
-                </tr>
-            </table>
-        </section>
-        <section class="contact wrap">
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+        </footer>
+    </div>
 </body>
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/lightbox-plus-jquery.min.js"></script>

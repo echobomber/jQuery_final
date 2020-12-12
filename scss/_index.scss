@@ -17,6 +17,23 @@ a{
 .primary-color{
     color: $primary-color;
 }
+// goTop
+.goTop-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: $primary-color;
+    color: #ffffff;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+// bar
 .social-link{
     background-color: $lightgrey;
     ul{
@@ -141,7 +158,7 @@ a{
 .course{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .course-item{
     width: 31%;
@@ -162,6 +179,9 @@ a{
     &:hover{
         transform: translate(-3px, -3px);
     }
+    a{
+        color: #000000;
+    }
     h3{
         text-align: center;
         font-size: 1.5rem;
@@ -173,8 +193,9 @@ a{
 }
 // table
 .compare-table{
+    margin-bottom: 80px;
     h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: bold;
         text-align: center;
         margin-bottom: 40px;
@@ -193,5 +214,84 @@ a{
     }
     th{
         background-color: #f1f1f1;
+    }
+    tr:hover{
+        background-color: #f6f6f6;
+    }
+}
+// 聯絡我們
+.contactUs{
+    background: url('../images/bg.png');
+    background-repeat: repeat-x;
+    color: #fff;
+    padding: 40px;
+    h3{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    form{
+        display: flex;
+        justify-content: space-around;
+    }
+    textarea{
+        width: 45%;
+        // textarea 預設可以被用戶縮放，所以清除
+        resize: none;
+        border-radius: 5px;
+    }
+}
+.contactUs-customerInfo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    label{
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type=text], input[type=phone], input[type=email]{
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        padding: 8px;
+        border: none;
+    }
+    input[type=submit]{
+        align-self: flex-end;
+        background-color: $primary-color;
+        color: #fff;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 3px;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    display: block;
+    width: 201px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background:url('../images/logoBottom.png');
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 101%;
+}
+.footer-contact{
+    li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    p{
+        margin-right: 10px;
+    }
+    a{
+        color: #f383b2;
     }
 }

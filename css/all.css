@@ -82,6 +82,23 @@ a {
   color: #00ca9d;
 }
 
+.goTop-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #00ca9d;
+  color: #ffffff;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
 .social-link {
   background-color: #f3f3f3;
 }
@@ -239,7 +256,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .course-item {
@@ -275,6 +292,10 @@ a {
           transform: translate(-3px, -3px);
 }
 
+.course-item a {
+  color: #000000;
+}
+
 .course-item h3 {
   text-align: center;
   font-size: 1.5rem;
@@ -285,8 +306,12 @@ a {
   line-height: 1.4rem;
 }
 
+.compare-table {
+  margin-bottom: 80px;
+}
+
 .compare-table h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
@@ -308,5 +333,113 @@ a {
 
 .compare-table th {
   background-color: #f1f1f1;
+}
+
+.compare-table tr:hover {
+  background-color: #f6f6f6;
+}
+
+.contactUs {
+  background: url("../images/bg.png");
+  background-repeat: repeat-x;
+  color: #fff;
+  padding: 40px;
+}
+
+.contactUs h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contactUs form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contactUs textarea {
+  width: 45%;
+  resize: none;
+  border-radius: 5px;
+}
+
+.contactUs-customerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.contactUs-customerInfo label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contactUs-customerInfo input[type=text], .contactUs-customerInfo input[type=phone], .contactUs-customerInfo input[type=email] {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+}
+
+.contactUs-customerInfo input[type=submit] {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: #00ca9d;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-logo {
+  display: block;
+  width: 201px;
+  height: 73px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background: url("../images/logoBottom.png");
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 101%;
+}
+
+.footer-contact li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8px;
+}
+
+.footer-contact p {
+  margin-right: 10px;
+}
+
+.footer-contact a {
+  color: #f383b2;
 }
 /*# sourceMappingURL=all.css.map */
